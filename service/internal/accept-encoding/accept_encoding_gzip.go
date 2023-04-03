@@ -53,7 +53,7 @@ func (*DisableGzip) HandleFinalize(
 ) (
 	output middleware.FinalizeOutput, metadata middleware.Metadata, err error,
 ) {
-	req, ok := input.Request.(*smithyhttp.Request)
+	_, ok := input.Request.(*smithyhttp.Request)
 	if !ok {
 		return output, metadata, &smithy.SerializationError{
 			Err: fmt.Errorf("unknown request type %T", input.Request),
@@ -62,7 +62,7 @@ func (*DisableGzip) HandleFinalize(
 
 	// Explicitly enable gzip support, this will prevent the http client from
 	// auto extracting the zipped content.
-	req.Header.Set(acceptEncodingHeaderKey, "identity")
+	//req.Header.Set(acceptEncodingHeaderKey, "identity")
 
 	return next.HandleFinalize(ctx, input)
 }

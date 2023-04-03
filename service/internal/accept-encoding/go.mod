@@ -1,4 +1,4 @@
-module github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding
+module github.com/matthew188/aws-sdk-go-v2/service/internal/accept-encoding
 
 go 1.15
 
