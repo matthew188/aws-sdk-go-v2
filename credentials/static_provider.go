@@ -3,7 +3,7 @@ package credentials
 import (
 	"context"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
+	"github.com/matthew188/aws-sdk-go-v2/aws"
 )
 
 const (

@@ -4,11 +4,11 @@ package s3
 
 import (
 	"context"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/aws/signer/v4"
-	internalChecksum "github.com/aws/aws-sdk-go-v2/service/internal/checksum"
-	s3cust "github.com/aws/aws-sdk-go-v2/service/s3/internal/customizations"
-	"github.com/aws/aws-sdk-go-v2/service/s3/types"
+	awsmiddleware "github.com/matthew188/aws-sdk-go-v2/aws/middleware"
+	"github.com/matthew188/aws-sdk-go-v2/aws/signer/v4"
+	internalChecksum "github.com/matthew188/aws-sdk-go-v2/service/internal/checksum"
+	s3cust "github.com/matthew188/aws-sdk-go-v2/service/s3/internal/customizations"
+	"github.com/matthew188/aws-sdk-go-v2/service/s3/types"
 	"github.com/aws/smithy-go/middleware"
 	smithyhttp "github.com/aws/smithy-go/transport/http"
 )

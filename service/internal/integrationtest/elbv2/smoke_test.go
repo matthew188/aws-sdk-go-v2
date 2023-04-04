@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	elbv2 "github.com/aws/aws-sdk-go-v2/service/elasticloadbalancingv2"
+	elbv2 "github.com/matthew188/aws-sdk-go-v2/service/elasticloadbalancingv2"
 
-	"github.com/aws/aws-sdk-go-v2/service/internal/integrationtest"
+	"github.com/matthew188/aws-sdk-go-v2/service/internal/integrationtest"
 	"github.com/aws/smithy-go"
 )
 

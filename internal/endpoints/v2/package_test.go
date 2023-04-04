@@ -2,8 +2,8 @@ package endpoints_test
 
 import (
 	"bytes"
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/internal/endpoints/v2"
+	"github.com/matthew188/aws-sdk-go-v2/aws"
+	"github.com/matthew188/aws-sdk-go-v2/internal/endpoints/v2"
 	"github.com/aws/smithy-go/logging"
 	"github.com/google/go-cmp/cmp"
 	"log"

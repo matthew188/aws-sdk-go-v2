@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/service/iam"
+	"github.com/matthew188/aws-sdk-go-v2/aws"
+	"github.com/matthew188/aws-sdk-go-v2/service/iam"
 
-	"github.com/aws/aws-sdk-go-v2/service/internal/integrationtest"
+	"github.com/matthew188/aws-sdk-go-v2/service/internal/integrationtest"
 	"github.com/aws/smithy-go"
 )
 

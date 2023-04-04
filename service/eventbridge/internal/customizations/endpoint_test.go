@@ -2,11 +2,11 @@ package customizations_test
 
 import (
 	"context"
-	"github.com/aws/aws-sdk-go-v2/aws"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/internal/awstesting/unit"
-	"github.com/aws/aws-sdk-go-v2/service/eventbridge"
-	"github.com/aws/aws-sdk-go-v2/service/eventbridge/types"
+	"github.com/matthew188/aws-sdk-go-v2/aws"
+	awsmiddleware "github.com/matthew188/aws-sdk-go-v2/aws/middleware"
+	"github.com/matthew188/aws-sdk-go-v2/internal/awstesting/unit"
+	"github.com/matthew188/aws-sdk-go-v2/service/eventbridge"
+	"github.com/matthew188/aws-sdk-go-v2/service/eventbridge/types"
 	"github.com/aws/smithy-go/middleware"
 	smithyhttp "github.com/aws/smithy-go/transport/http"
 	"strings"

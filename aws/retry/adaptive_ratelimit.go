@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/internal/sdk"
+	"github.com/matthew188/aws-sdk-go-v2/internal/sdk"
 )
 
 type adaptiveRateLimit struct {

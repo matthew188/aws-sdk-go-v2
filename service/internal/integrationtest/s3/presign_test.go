@@ -14,11 +14,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	v4 "github.com/aws/aws-sdk-go-v2/aws/signer/v4"
-	"github.com/aws/aws-sdk-go-v2/service/internal/integrationtest"
-	"github.com/aws/aws-sdk-go-v2/service/s3"
-	s3types "github.com/aws/aws-sdk-go-v2/service/s3/types"
+	"github.com/matthew188/aws-sdk-go-v2/aws"
+	v4 "github.com/matthew188/aws-sdk-go-v2/aws/signer/v4"
+	"github.com/matthew188/aws-sdk-go-v2/service/internal/integrationtest"
+	"github.com/matthew188/aws-sdk-go-v2/service/s3"
+	s3types "github.com/matthew188/aws-sdk-go-v2/service/s3/types"
 	"github.com/google/go-cmp/cmp"
 )
 

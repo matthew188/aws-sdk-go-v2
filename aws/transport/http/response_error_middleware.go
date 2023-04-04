@@ -3,7 +3,7 @@ package http
 import (
 	"context"
 
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
+	awsmiddleware "github.com/matthew188/aws-sdk-go-v2/aws/middleware"
 	"github.com/aws/smithy-go/middleware"
 	smithyhttp "github.com/aws/smithy-go/transport/http"
 )

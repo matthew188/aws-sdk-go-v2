@@ -5,7 +5,7 @@ package translate
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/translate/types"
+	"github.com/matthew188/aws-sdk-go-v2/service/translate/types"
 	smithy "github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/middleware"
 )

@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	v4Internal "github.com/aws/aws-sdk-go-v2/aws/signer/internal/v4"
-	v4 "github.com/aws/aws-sdk-go-v2/aws/signer/v4"
-	"github.com/aws/aws-sdk-go-v2/internal/awstesting/unit"
+	v4Internal "github.com/matthew188/aws-sdk-go-v2/aws/signer/internal/v4"
+	v4 "github.com/matthew188/aws-sdk-go-v2/aws/signer/v4"
+	"github.com/matthew188/aws-sdk-go-v2/internal/awstesting/unit"
 )
 
 var standaloneSignCases = []struct {

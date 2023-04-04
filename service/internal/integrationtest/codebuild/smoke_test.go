@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/service/codebuild"
+	"github.com/matthew188/aws-sdk-go-v2/service/codebuild"
 
-	"github.com/aws/aws-sdk-go-v2/service/internal/integrationtest"
+	"github.com/matthew188/aws-sdk-go-v2/service/internal/integrationtest"
 )
 
 func TestInteg_00_ListBuilds(t *testing.T) {

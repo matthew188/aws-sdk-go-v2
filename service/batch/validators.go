@@ -5,7 +5,7 @@ package batch
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/batch/types"
+	"github.com/matthew188/aws-sdk-go-v2/service/batch/types"
 	smithy "github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/middleware"
 )

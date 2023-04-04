@@ -4,11 +4,11 @@ package kinesis
 
 import (
 	"context"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/aws/signer/v4"
-	awshttp "github.com/aws/aws-sdk-go-v2/aws/transport/http"
-	kinesiscust "github.com/aws/aws-sdk-go-v2/service/kinesis/internal/customizations"
-	"github.com/aws/aws-sdk-go-v2/service/kinesis/types"
+	awsmiddleware "github.com/matthew188/aws-sdk-go-v2/aws/middleware"
+	"github.com/matthew188/aws-sdk-go-v2/aws/signer/v4"
+	awshttp "github.com/matthew188/aws-sdk-go-v2/aws/transport/http"
+	kinesiscust "github.com/matthew188/aws-sdk-go-v2/service/kinesis/internal/customizations"
+	"github.com/matthew188/aws-sdk-go-v2/service/kinesis/types"
 	"github.com/aws/smithy-go/middleware"
 	smithyhttp "github.com/aws/smithy-go/transport/http"
 )

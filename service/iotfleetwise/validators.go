@@ -5,7 +5,7 @@ package iotfleetwise
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/iotfleetwise/types"
+	"github.com/matthew188/aws-sdk-go-v2/service/iotfleetwise/types"
 	smithy "github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/middleware"
 )

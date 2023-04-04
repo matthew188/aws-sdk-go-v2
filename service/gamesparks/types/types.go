@@ -3,7 +3,7 @@
 package types
 
 import (
-	"github.com/aws/aws-sdk-go-v2/service/gamesparks/document"
+	"github.com/matthew188/aws-sdk-go-v2/service/gamesparks/document"
 	smithydocument "github.com/aws/smithy-go/document"
 	"time"
 )

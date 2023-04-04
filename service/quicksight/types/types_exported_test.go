@@ -4,7 +4,7 @@ package types_test
 
 import (
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/quicksight/types"
+	"github.com/matthew188/aws-sdk-go-v2/service/quicksight/types"
 )
 
 func ExampleDataSourceParameters_outputUsage() {

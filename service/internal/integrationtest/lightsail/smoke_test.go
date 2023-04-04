@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/service/internal/integrationtest"
-	"github.com/aws/aws-sdk-go-v2/service/lightsail"
+	"github.com/matthew188/aws-sdk-go-v2/service/internal/integrationtest"
+	"github.com/matthew188/aws-sdk-go-v2/service/lightsail"
 )
 
 func TestInteg_00_GetActiveNames(t *testing.T) {

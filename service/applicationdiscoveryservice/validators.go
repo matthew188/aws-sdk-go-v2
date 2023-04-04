@@ -5,7 +5,7 @@ package applicationdiscoveryservice
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/applicationdiscoveryservice/types"
+	"github.com/matthew188/aws-sdk-go-v2/service/applicationdiscoveryservice/types"
 	smithy "github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/middleware"
 )

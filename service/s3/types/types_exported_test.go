@@ -4,7 +4,7 @@ package types_test
 
 import (
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/s3/types"
+	"github.com/matthew188/aws-sdk-go-v2/service/s3/types"
 )
 
 func ExampleAnalyticsFilter_outputUsage() {

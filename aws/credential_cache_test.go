@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	sdkrand "github.com/aws/aws-sdk-go-v2/internal/rand"
-	"github.com/aws/aws-sdk-go-v2/internal/sdk"
+	sdkrand "github.com/matthew188/aws-sdk-go-v2/internal/rand"
+	"github.com/matthew188/aws-sdk-go-v2/internal/sdk"
 	"github.com/google/go-cmp/cmp"
 )
 

@@ -16,10 +16,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/service/internal/integrationtest"
-	"github.com/aws/aws-sdk-go-v2/service/transcribestreaming"
-	"github.com/aws/aws-sdk-go-v2/service/transcribestreaming/types"
+	"github.com/matthew188/aws-sdk-go-v2/aws"
+	"github.com/matthew188/aws-sdk-go-v2/service/internal/integrationtest"
+	"github.com/matthew188/aws-sdk-go-v2/service/transcribestreaming"
+	"github.com/matthew188/aws-sdk-go-v2/service/transcribestreaming/types"
 )
 
 var (

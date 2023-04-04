@@ -8,11 +8,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	awshttp "github.com/aws/aws-sdk-go-v2/aws/transport/http"
-	"github.com/aws/aws-sdk-go-v2/config"
-	"github.com/aws/aws-sdk-go-v2/credentials"
-	"github.com/aws/aws-sdk-go-v2/credentials/stscreds"
+	"github.com/matthew188/aws-sdk-go-v2/aws"
+	awshttp "github.com/matthew188/aws-sdk-go-v2/aws/transport/http"
+	"github.com/matthew188/aws-sdk-go-v2/config"
+	"github.com/matthew188/aws-sdk-go-v2/credentials"
+	"github.com/matthew188/aws-sdk-go-v2/credentials/stscreds"
 	"github.com/aws/smithy-go/middleware"
 	smithyhttp "github.com/aws/smithy-go/transport/http"
 )

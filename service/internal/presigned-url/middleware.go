@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	v4 "github.com/aws/aws-sdk-go-v2/aws/signer/v4"
+	awsmiddleware "github.com/matthew188/aws-sdk-go-v2/aws/middleware"
+	v4 "github.com/matthew188/aws-sdk-go-v2/aws/signer/v4"
 
 	"github.com/aws/smithy-go/middleware"
 )

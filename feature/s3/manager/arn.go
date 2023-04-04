@@ -2,7 +2,7 @@ package manager
 
 import (
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/aws/arn"
+	"github.com/matthew188/aws-sdk-go-v2/aws/arn"
 )
 
 func validateSupportedARNType(bucket string) error {

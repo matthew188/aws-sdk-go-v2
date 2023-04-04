@@ -8,9 +8,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/service/s3control"
-	"github.com/aws/aws-sdk-go-v2/service/s3control/types"
+	"github.com/matthew188/aws-sdk-go-v2/aws"
+	"github.com/matthew188/aws-sdk-go-v2/service/s3control"
+	"github.com/matthew188/aws-sdk-go-v2/service/s3control/types"
 )
 
 func TestInteg_PublicAccessBlock(t *testing.T) {

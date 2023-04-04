@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/credentials/stscreds"
-	"github.com/aws/aws-sdk-go-v2/internal/awstesting"
+	"github.com/matthew188/aws-sdk-go-v2/credentials/stscreds"
+	"github.com/matthew188/aws-sdk-go-v2/internal/awstesting"
 )
 
 func TestAssumeRole(t *testing.T) {

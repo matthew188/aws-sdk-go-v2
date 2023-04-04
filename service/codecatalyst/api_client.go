@@ -4,12 +4,12 @@ package codecatalyst
 
 import (
 	"context"
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/aws/defaults"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/aws/retry"
-	awshttp "github.com/aws/aws-sdk-go-v2/aws/transport/http"
-	internalConfig "github.com/aws/aws-sdk-go-v2/internal/configsources"
+	"github.com/matthew188/aws-sdk-go-v2/aws"
+	"github.com/matthew188/aws-sdk-go-v2/aws/defaults"
+	awsmiddleware "github.com/matthew188/aws-sdk-go-v2/aws/middleware"
+	"github.com/matthew188/aws-sdk-go-v2/aws/retry"
+	awshttp "github.com/matthew188/aws-sdk-go-v2/aws/transport/http"
+	internalConfig "github.com/matthew188/aws-sdk-go-v2/internal/configsources"
 	smithy "github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/auth/bearer"
 	smithydocument "github.com/aws/smithy-go/document"

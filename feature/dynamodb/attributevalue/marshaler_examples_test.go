@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue"
-	"github.com/aws/aws-sdk-go-v2/internal/awsutil"
-	"github.com/aws/aws-sdk-go-v2/service/dynamodb/types"
+	"github.com/matthew188/aws-sdk-go-v2/feature/dynamodb/attributevalue"
+	"github.com/matthew188/aws-sdk-go-v2/internal/awsutil"
+	"github.com/matthew188/aws-sdk-go-v2/service/dynamodb/types"
 )
 
 func ExampleMarshal() {

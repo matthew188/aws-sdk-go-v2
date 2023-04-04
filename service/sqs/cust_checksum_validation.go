@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	sqstypes "github.com/aws/aws-sdk-go-v2/service/sqs/types"
+	"github.com/matthew188/aws-sdk-go-v2/aws"
+	sqstypes "github.com/matthew188/aws-sdk-go-v2/service/sqs/types"
 	"github.com/aws/smithy-go/middleware"
 )
 

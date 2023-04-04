@@ -95,7 +95,7 @@ public class ApiGatewayExportsNullabilityExceptionIntegrationTest {
      *
      * See `mediatailor.json` change in this commit:
      *
-     * https://github.com/aws/aws-sdk-go-v2/commit/18e7f160c88a16ad2010ac3208e2939505760e97.
+     * https://github.com/matthew188/aws-sdk-go-v2/commit/18e7f160c88a16ad2010ac3208e2939505760e97.
      */
     @Test
     public void test_unaffected_MediaTailor_APIGW_to_Smithy_migrated() {

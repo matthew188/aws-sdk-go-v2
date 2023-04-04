@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/internal/sdk"
-	"github.com/aws/aws-sdk-go-v2/internal/shareddefaults"
+	"github.com/matthew188/aws-sdk-go-v2/internal/sdk"
+	"github.com/matthew188/aws-sdk-go-v2/internal/shareddefaults"
 )
 
 var osUserHomeDur = shareddefaults.UserHomeDir

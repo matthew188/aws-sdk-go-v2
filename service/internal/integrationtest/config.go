@@ -10,8 +10,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/config"
+	"github.com/matthew188/aws-sdk-go-v2/aws"
+	"github.com/matthew188/aws-sdk-go-v2/config"
 )
 
 // LoadConfigWithDefaultRegion loads the default configuration for the SDK, and

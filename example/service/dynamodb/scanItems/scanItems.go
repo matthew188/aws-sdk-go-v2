@@ -3,10 +3,10 @@ package main
 import (
 	"context"
 	"flag"
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/config"
-	"github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue"
-	"github.com/aws/aws-sdk-go-v2/service/dynamodb"
+	"github.com/matthew188/aws-sdk-go-v2/aws"
+	"github.com/matthew188/aws-sdk-go-v2/config"
+	"github.com/matthew188/aws-sdk-go-v2/feature/dynamodb/attributevalue"
+	"github.com/matthew188/aws-sdk-go-v2/service/dynamodb"
 	"log"
 )
 

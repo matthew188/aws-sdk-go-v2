@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	smithyClient "github.com/aws/aws-sdk-go-v2/service/lexruntimeservice"
+	smithyClient "github.com/matthew188/aws-sdk-go-v2/service/lexruntimeservice"
 	"github.com/aws/smithy-go/middleware"
 )
 

@@ -10,8 +10,8 @@ import (
 	smithydocument "github.com/aws/smithy-go/document"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/service/dynamodbstreams/types"
+	"github.com/matthew188/aws-sdk-go-v2/aws"
+	"github.com/matthew188/aws-sdk-go-v2/service/dynamodbstreams/types"
 	"github.com/google/go-cmp/cmp"
 )
 

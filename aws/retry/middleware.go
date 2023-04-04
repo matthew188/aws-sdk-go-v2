@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	awsmiddle "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/internal/sdk"
+	"github.com/matthew188/aws-sdk-go-v2/aws"
+	awsmiddle "github.com/matthew188/aws-sdk-go-v2/aws/middleware"
+	"github.com/matthew188/aws-sdk-go-v2/internal/sdk"
 	"github.com/aws/smithy-go/logging"
 	smithymiddle "github.com/aws/smithy-go/middleware"
 	"github.com/aws/smithy-go/transport/http"

@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/aws/aws-sdk-go-v2/internal/awstesting/unit"
-	smithyClient "github.com/aws/aws-sdk-go-v2/service/lexruntimeservice"
-	"github.com/aws/aws-sdk-go-v2/service/lexruntimeservice/types"
+	"github.com/matthew188/aws-sdk-go-v2/internal/awstesting/unit"
+	smithyClient "github.com/matthew188/aws-sdk-go-v2/service/lexruntimeservice"
+	"github.com/matthew188/aws-sdk-go-v2/service/lexruntimeservice/types"
 	v1Aws "github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/corehandlers"
 	v1Creds "github.com/aws/aws-sdk-go/aws/credentials"
